@@ -10,4 +10,8 @@ class Dog
     @breed = breed
     @@all << self
   end
+  
+  def self.all
+    self.class.all
+  end
 end
